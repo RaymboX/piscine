@@ -1,0 +1,12 @@
+Norminette -R CheckForbiddenSourceHeader ../ex00/ft_strlen.c
+Norminette -R CheckForbiddenSourceHeader ../ex01/ft_putstr.c
+Norminette -R CheckForbiddenSourceHeader ../ex02/ft_putnbr.c
+Norminette -R CheckForbiddenSourceHeader ../ex03/ft_atoi.c
+Norminette -R CheckForbiddenSourceHeader ../ex04/ft_putnbr_base.c
+Norminette -R CheckForbiddenSourceHeader ../ex05/ft_atoi_base.c
+gcc -Wall -Werror -Wextra main00.c ../ex00/ft_strlen.c -o out00
+gcc -Wall -Werror -Wextra main01.c ../ex01/ft_putstr.c -o out01
+gcc -Wall -Werror -Wextra main02.c ../ex02/ft_putnbr.c -o out02
+gcc -Wall -Werror -Wextra main03.c ../ex03/ft_atoi.c -o out03
+gcc -Wall -Werror -Wextra main04.c ../ex04/ft_putnbr_base.c -o out04
+gcc -Wall -Werror -Wextra main05.c ../ex05/ft_atoi_base.c -o out05

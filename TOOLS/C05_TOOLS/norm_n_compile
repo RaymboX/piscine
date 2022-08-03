@@ -1,0 +1,18 @@
+Norminette -R CheckForbiddenSourceHeader ../ex00/ft_iterative_factorial.c
+Norminette -R CheckForbiddenSourceHeader ../ex01/ft_recursive_factorial.c
+Norminette -R CheckForbiddenSourceHeader ../ex02/ft_iterative_power.c
+Norminette -R CheckForbiddenSourceHeader ../ex03/ft_recursive_power.c
+Norminette -R CheckForbiddenSourceHeader ../ex04/ft_fibonacci.c
+Norminette -R CheckForbiddenSourceHeader ../ex05/ft_sqrt.c
+Norminette -R CheckForbiddenSourceHeader ../ex06/ft_is_prime.c
+Norminette -R CheckForbiddenSourceHeader ../ex07/ft_find_next_prime.c
+Norminette -R CheckForbiddenSourceHeader ../ex08/ft_ten_queens_puzzle.c
+gcc -Wall -Werror -Wextra main00.c ../ex00/ft_iterative_factorial.c -o out00
+gcc -Wall -Werror -Wextra main01.c ../ex01/ft_recursive_factorial.c -o out01
+gcc -Wall -Werror -Wextra main02.c ../ex02/ft_iterative_power.c -o out02
+gcc -Wall -Werror -Wextra main03.c ../ex03/ft_recursive_power.c -o out03
+gcc -Wall -Werror -Wextra main04.c ../ex04/ft_fibonacci.c -o out04
+gcc -Wall -Werror -Wextra main05.c ../ex05/ft_sqrt.c -o out05
+gcc -Wall -Werror -Wextra main06.c ../ex06/ft_is_prime.c -o out06
+gcc -Wall -Werror -Wextra main07.c ../ex07/ft_find_next_prime.c -o out07
+gcc -Wall -Werror -Wextra main08.c ../ex08/ft_ten_queens_puzzle.c -o out08

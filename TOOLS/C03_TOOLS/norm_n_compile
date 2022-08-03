@@ -1,0 +1,12 @@
+Norminette -R CheckForbiddenSourceHeader ../ex00/ft_strcmp.c
+Norminette -R CheckForbiddenSourceHeader ../ex01/ft_strncmp.c
+Norminette -R CheckForbiddenSourceHeader ../ex02/ft_strcat.c
+Norminette -R CheckForbiddenSourceHeader ../ex03/ft_strncat.c
+Norminette -R CheckForbiddenSourceHeader ../ex04/ft_strstr.c
+Norminette -R CheckForbiddenSourceHeader ../ex05/ft_strlcat.c
+gcc -Wall -Werror -Wextra main00.c ../ex00/ft_strcmp.c -o out00
+gcc -Wall -Werror -Wextra main01.c ../ex01/ft_strncmp.c -o out01
+gcc -Wall -Werror -Wextra main02.c ../ex02/ft_strcat.c -o out02
+gcc -Wall -Werror -Wextra main03.c ../ex03/ft_strncat.c -o out03
+gcc -Wall -Werror -Wextra main04.c ../ex04/ft_strstr.c -o out04
+gcc -Wall -Werror -Wextra main05.c ../ex05/ft_strlcat.c -o out05

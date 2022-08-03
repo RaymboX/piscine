@@ -1,0 +1,4 @@
+alias gccf='gcc -Wall -Werror -Wextra'
+alias normr='norminette -R CheckForbiddenSourceHeader'
+alias d_libft='cd /Users/mraymond/Documents/RaymGIT/RaymGIT/42/CURSUS/LIBFT'
+alias d_Raym='cd /Users/mraymond/Documents/RaymGIT/RaymGIT'

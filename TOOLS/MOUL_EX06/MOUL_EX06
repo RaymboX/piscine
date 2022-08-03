@@ -1,0 +1,5 @@
+touch FILETOIGNORE FILETOIGNORE2
+echo FILETOIGNORE > .gitignore
+echo FILETOIGNORE2 >> .gitignore
+bash git_ignore.sh | cat -e
+

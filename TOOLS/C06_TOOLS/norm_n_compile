@@ -1,0 +1,8 @@
+Norminette -R CheckForbiddenSourceHeader ../ex00/ft_print_program_name.c
+Norminette -R CheckForbiddenSourceHeader ../ex01/ft_print_params.c
+Norminette -R CheckForbiddenSourceHeader ../ex02/ft_rev_params.c
+Norminette -R CheckForbiddenSourceHeader ../ex03/ft_sort_params.c
+gcc -Wall -Werror -Wextra ../ex00/ft_print_program_name.c -o out00
+gcc -Wall -Werror -Wextra ../ex01/ft_print_params.c -o out01
+gcc -Wall -Werror -Wextra ../ex02/ft_rev_params.c -o out02
+gcc -Wall -Werror -Wextra ../ex03/ft_sort_params.c -o out03
